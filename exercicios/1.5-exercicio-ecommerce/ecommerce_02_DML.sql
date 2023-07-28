@@ -7,26 +7,26 @@ GO
 
 INSERT INTO Categorias(Nome, IdLoja)
 VALUES				  ('Cursos', 1)
-					 ,('AcessÛrios', 1);
+					 ,('Acess√≥rios', 1);
 GO
 
 INSERT INTO SubCategorias(Nome, IdCategoria)
-VALUES					 ('Inform·tica B·sica', 1)
+VALUES					 ('Inform√°tica B√°sica', 1)
 						,('Desenvolvimento', 1)
 						,('Meio Ambiente', 2)
 						,('Camisetas', 2);
 GO
 
 INSERT INTO Produtos(Titulo, Valor, IdSubCategoria)
-VALUES				('Copo para cafÈ', 25, 3)
+VALUES				('Copo para caf√©', 25, 3)
 				   ,('Jaqueta', 100, 4)
-				   ,('Excel B·sico', 350, 1)
+				   ,('Excel B√°sico', 350, 1)
 				   ,('C#', 700, 2);
 GO
 
 INSERT INTO Clientes(Nome)
-VALUES				('Saulo')
-				   ,('Caique');
+VALUES				('Ana')
+				   ,('Aline');
 GO
 
 INSERT INTO Pedidos(NumPedido, IdCliente, DataPedido, [Status])
