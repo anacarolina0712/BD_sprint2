@@ -2,7 +2,7 @@ USE Pclinics;
 GO
 
 INSERT INTO Clinicas(RazaoSocial, CNPJ, Endereco)
-VALUES				('Meu Pimp„o','99999999999999','Av. Bar„o de Limeira, 539');
+VALUES				('Meu Pimp√£o','99999999999999','Av. Bar√£o de Limeira, 539');
 GO
 
 INSERT INTO TiposPets(Descricao)
@@ -14,7 +14,7 @@ INSERT INTO Racas(Descricao, IdTipoPet)
 VALUES			 ('Poodle', 1)
 				,('Labrador', 1)
 				,('SRD', 1)
-				,('SiamÍs', 2);
+				,('Siam√™s', 2);
 GO
 
 INSERT INTO Donos(Nome)
@@ -29,12 +29,12 @@ VALUES				('Junior', '10/10/2018', 1, 1)
 GO
 
 INSERT INTO Veterinarios(Nome, CRMV, IdClinica)
-VALUES					('Saulo', '432551', 1)
-					   ,('Caique', '653655', 1);
+VALUES					('Ana', '432551', 1)
+					   ,('Aline', '653655', 1);
 GO
 
 INSERT INTO Atendimentos(Descricao, DataAtendimento, IdVeterinario, IdPet)
 VALUES					('Restam 10 dias de vida', '22/01/2019', 1, 1)
-					   ,('O paciente est· ok', '21/01/2019', 2, 2)
-					   ,('O paciente est· ok', '22/01/2019', 2, 1);
+					   ,('O paciente est√° ok', '21/01/2019', 2, 2)
+					   ,('O paciente est√° ok', '22/01/2019', 2, 1);
 GO
