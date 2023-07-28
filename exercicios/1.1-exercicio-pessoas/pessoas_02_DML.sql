@@ -2,8 +2,8 @@ USE Pessoas;
 GO
 
 INSERT INTO Pessoas (Nome)
-VALUES				('Saulo')
-				   ,('Caique');
+VALUES				('Ana')
+				   ,('Aline');
 GO
 
 INSERT INTO Telefones (Descricao, IdPessoa)
@@ -13,8 +13,8 @@ VALUES				  ('99999999', 1)
 GO
 
 INSERT INTO Emails (Descricao, IdPessoa)
-VALUES			   ('s.santos@email.com', 1)
-				  ,('c.zaneti@email.com', 2);
+VALUES			   ('A.Moura@email.com', 1)
+				  ,('A.Bezerra@email.com', 2);
 GO
 
 INSERT INTO CNHs (Descricao, IdPessoa)
