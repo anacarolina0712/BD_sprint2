@@ -2,27 +2,27 @@ USE Micromanu;
 GO
 
 INSERT INTO Clientes(Nome)
-VALUES			 ('Saulo')
-				,('Caique');
+VALUES			 ('Ana')
+				,('Aline');
 GO
 
 INSERT INTO Colaboradores(Nome, Salario)
-VALUES				  ('Paulo', 3000)
-					 ,('Odirlei', 4000)
-					 ,('Thiago', 3500)
-					 ,('Fernando', 5000);
+VALUES				  ('Luiza', 3000)
+					 ,('Matheus', 4000)
+					 ,('Izadora', 3500)
+					 ,('Bruno', 5000);
 GO
 
 INSERT INTO Itens(Nome)
 VALUES			 ('Computador')
 				,('Notebook')
 				,('Video game')
-				,('Televis„o')
+				,('Televis√£o')
 				,('Celular');
 GO
 
 INSERT INTO TiposConsertos(Descricao)
-VALUES				('ManutenÁ„o')
+VALUES				('Manuten√ß√£o')
 				   ,('Limpeza');
 GO
 
