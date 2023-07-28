@@ -5,7 +5,7 @@ SELECT * FROM Generos;
 -- * = TUDO (ALL)
 SELECT * FROM Filmes;
 
--- listar todos os alugueis mostrando as datas de inÌcio e fim, 
+-- listar todos os alugueis mostrando as datas de in√≠cio e fim, 
 -- o nome do cliente que alugou e nome do modelo do carro
 -- INNER JOIN
 -- AS (ALIAS)
@@ -31,6 +31,6 @@ ON Filmes.idGenero = Generos.idGenero;
 -- * = TUDO (ALL)
 SELECT * FROM Usuarios;
 
--- Busca um usu·rio atravÈs do e-mail e da senha
+-- Busca um usu√°rio atrav√©s do e-mail e da senha
 SELECT idUsuario, email, senha, permissao FROM Usuarios
-WHERE email = 'saulo@email.com' AND senha = '123';
+WHERE email = 'AnaMoura@email.com' AND senha = '123';
