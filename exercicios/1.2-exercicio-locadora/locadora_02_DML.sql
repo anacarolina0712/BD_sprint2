@@ -26,8 +26,8 @@ VALUES				 (1, 'HEL1805', 1)
 GO
 
 INSERT INTO Clientes(Nome, CPF)
-VALUES				('Saulo', '99999999999')
-				   ,('Caique', '88888888888');
+VALUES				('Ana', '99999999999')
+				   ,('Aline', '88888888888');
 GO
 
 INSERT INTO Alugueis (IdCliente, IdVeiculo, DataInicio, DataFim)
