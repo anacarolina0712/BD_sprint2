@@ -25,6 +25,6 @@ VALUES			 (1,1)
 GO
 
 INSERT INTO Usuarios(Nome, Email, Senha, Permissao)
-VALUES				('Saulo', 's.santos@email.com', '123456', 'Administrador')
-				   ,('Caique', 'c.zaneti@email.com', '123456', 'Comum');
+VALUES				('Ana', 'A.Moura@email.com', '123456', 'Administrador')
+				   ,('Aline', 'A.Bezerra@email.com', '123456', 'Comum');
 GO
