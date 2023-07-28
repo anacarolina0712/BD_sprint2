@@ -2,7 +2,7 @@ USE Filmes;
 
 --			Tabela	 Coluna
 INSERT INTO Generos (Nome)
-VALUES				('AÁ„o')
+VALUES				('A√ß√£o')
 				   ,('Romance');
 
 INSERT INTO Generos (Nome)
@@ -12,7 +12,7 @@ INSERT INTO Filmes (Titulo, idGenero)
 VALUES			   ('Rambo', 1)
 				  ,('Vingadores', 1)
 				  ,('Ghost', 2)
-				  ,('Di·rio de uma paix„o', 2);
+				  ,('Di√°rio de uma paix√£o', 2);
 
 INSERT INTO Filmes (Titulo)
 VALUES			   ('Homem-Aranha')
@@ -26,6 +26,6 @@ DELETE FROM Generos
 WHERE idGenero = 3;
 
 INSERT INTO Usuarios(email, senha, permissao)
-VALUES				('saulo@email.com', '123', 'comum')
+VALUES				('AnaMoura@email.com', '123', 'comum')
 				   ,('adm@adm.com', '123', 'administrador');
 GO
